@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
             list.add(new Receita(id, nome, tempo, rendimento, ingredientes, preparo, foto));
 
-
+//
         }
         adapter.notifyDataSetChanged();
         listView = (ListView)findViewById(R.id.lista_receitas);
